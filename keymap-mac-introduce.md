@@ -40,6 +40,7 @@
 - `Control + Shift + Space` 智能代码补全（过滤器方法列表和变量的预期类型）
 - `Command + Shift + Enter` 自动结束代码，行末自动添加分号
 - `Command + P` 显示方法的参数信息
+- `Control + J` 显示当前位置的变量、方法的 Documentation 内容
 - `Control + J` 快速查看文档
 - `Shift + F1` 查看外部文档（在某些代码上会触发打开浏览器显示相关文档）
 - `Command + 鼠标放在代码上` 显示代码简要信息
@@ -54,7 +55,7 @@
 - `Option + 方向键下` 减少当前选中的代码块
 - `Control + Shift + Q` 显示上下文信息
 - `Option + Enter` 显示意向动作和快速修复代码
-- `Command + Option + L` 格式化代码
+- `Command + Option + L` 格式化代码（有些文件格式化是有特殊要求的，比如 SQL 文件必须设置方言才可被格式化）
 - `Control + Option + O` 优化import
 - `Control + Option + I` 自动缩进线
 - `Tab / Shift + Tab` 缩进代码 / 反缩进代码
@@ -126,7 +127,8 @@
 - `Shift + Esc` 隐藏当前或最后一个活动的窗口，且光标进入代码文件窗口
 - `Command + Shift + F4` 关闭活动run/messages/find/... tab
 - `Command + L` 在当前文件跳转到某一行的指定处
-- `Command + E` 显示最近打开的文件记录列表
+- `Command + E` 显示最近打开的 **文件记录** 列表
+- `Command + Shift + E` 显示最近打开的 **文件代码位置记录** 列表
 - `Option + 方向键左 / Option + 方向键右` 光标跳转到当前单词 / 中文句的左 / 右侧开头位置
 - `Command + Option + 方向键左 / Command + Option + 方向键右` 退回 / 前进到上一个操作的地方
 - `Command + Shift + Delete` 跳转到最后一个编辑的地方

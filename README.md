@@ -1,48 +1,24 @@
-# 重要说明，看三遍
-
-## 特别事件
-
-- IntelliJ IDEA 2018.3 发布（2018-11-21）
-- IntelliJ IDEA 2018.2 发布（2018-07-25）
-	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
-	- 下载：<http://www.jetbrains.com/idea/download/>
-- 实体书
-	- 有在计划出实体书，并且空闲时已经在潦草写点，计划 2019-02 春节前结束。（不排除工作上有事情）
-	- 计算机类书籍销量都很小（总销量能 1W 册算是牛逼了），赚不了什么钱，而且容易 PDF，这是无法阻拦的。写实体书只是因为想白纸黑字证明自己存在过，即使哪天突然消失了也能有人会记得我。
-
-
 
 ## 介绍(Introduce)
 
+2021-07-24 更新：官方中文语言包正式推出！我个人不建议使用中文语言包，因为这对你查看官网帮助文档的时候会造成混乱。但是初学者确实使用中文语言包更容易上手，建议后期还原英文。
+- 官网 Clone 比较慢的童鞋可以选择：`git clone --depth=1 https://hub.fastgit.org/judasn/IntelliJ-IDEA-Tutorial.git`
 - 本套教程适用于：
-	- [IntelliJ IDEA 14、15、2016、2017、2018 版本](https://www.jetbrains.com/idea/)
-	- [WebStorm 2016、2017、2018 版本](https://www.jetbrains.com/webstorm)
-	- [PhpStorm 2016、2017、2018 版本](https://www.jetbrains.com/phpstorm)
-	- [PyCharm 2016、2017、2018 版本](https://www.jetbrains.com/pycharm)
-	- [RubyMine 2016、2017、2018 版本](https://www.jetbrains.com/ruby)
-	- [Goland 2017、2018 版本](https://www.jetbrains.com/go)
-	- [CLion 2017、2018 版本](https://www.jetbrains.com/clion)
-	- [DataGrip 2016、2017、2018 版本](https://www.jetbrains.com/datagrip)
+	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/idea/)
+	- [WebStorm 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/webstorm)
+	- [PhpStorm 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/phpstorm)
+	- [PyCharm 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/pycharm)
+	- [RubyMine 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/ruby)
+	- [Goland 2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/go)
+	- [CLion 2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/clion)
+	- [DataGrip 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/datagrip)
 	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
-- 教程目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
 - 特别需要友情提醒的是：
-    - 请 `Fork` 之后，在我的基础上按你自己喜欢的方式整理一套属于你自己的快捷键列表，并导出为 PDF，以备不时查阅，对于提升开发效率是很有帮助的！
-    - 文章的图片建议在需要的时候可以 `右键 - 查看图像（在新标签页打开图片）` 进行原图查看。或者建议你放大页面缩放比例（快捷键 `Ctrl + 鼠标滚轮`），可以更加清楚地看清图片细节。
     - 有的 Gif 动态图片操作过快，你需要暂停 Gif 图片进行观看的话，可以使用这个 Gif 图片查看工具：[7GIF（提取密码：0qo9）](https://pan.baidu.com/s/1mkrESsg)
-- 同时邀请您一起参与完善该教程，帮助更多的人，欢迎反馈错误和意见！
-- 本系列文章唯一授权的商业网站是：[极客学院](http://www.jikexueyuan.com/)，其他商业网站一律禁止转载。公益站点、个人博客、公众号等载体请在转载写明出处链接。
-- 如果你想参与完善该教程，请移步到 Github 上进行 Fork：
-    - 地址：<https://github.com/judasn/IntelliJ-IDEA-Tutorial/>
-- 如果你需要一份电子版，请查看（制作电子版很费精力，不会常更新此文件）：
-    - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
-    - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
-- GitBook 在线阅读地址：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
-- [关于咕泡学院的教程：《IntelliJ IDEA使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
-- [IntelliJ IDEA-Windows-新手必备基础配置整理（密码：z1uo）](http://pan.baidu.com/s/1nvfzKTj)
-    - 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:\Users\你的电脑登录用户名\.IntelliJIdea2017.2\config` 目录下（[Mac 用户](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/installation-directory-introduce.md#mac-的配置文件保存路径)）
-    - 导入后，你过去的一些配置可能会丢失，所以需要重新配置下，每个人都不一样，这需要你自己进行分析。
+- **GitBook 在线阅读地址（强力推荐）**：<https://cdk8s.gitbook.io/github/>
+- 很多不同地区用户反馈：图片看不到，这是无解的，因为被 github 部分资源链接是被强的，所以推荐使用 GitBook 阅读。
 
 ## 目录(Contents)
 
@@ -103,7 +79,7 @@
 ## 联系(Contact)
 
 - Email：`gitnavi@qq.com`
-- Blog（有微信联系方式）：<http://YouMeek.com>
+- 微信：`judasn`
 - IntelliJ IDEA QQ 交流群，具体请看：[入群条件说明](https://github.com/judasn/IntelliJ-IDEA-Java-Conversation)
 - 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
@@ -157,7 +133,3 @@
 |Robot-L|<https://github.com/Robot-L>|
 |duanluan|<https://github.com/duanluan>|
 
-## AD
-
-- [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
-- [适合后端开发者的前端 React-Admin](https://github.com/satan31415/umi-admin)
