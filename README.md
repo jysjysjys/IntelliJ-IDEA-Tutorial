@@ -1,21 +1,22 @@
 
 ## 作者新方向，感谢支持
 
-- [UPUPMO-扶持个人从开公司到全平台产品上线](https://www.bilibili.com/video/BV1Bb4y1j7dy)
+- [从开公司到开发全平台产品（文字版）](https://github.com/cdk8s/cdk8s-team-style/blob/master/full-stack/README.md)
+- [从开公司到开发全平台产品（视频版）](https://space.bilibili.com/1765486559/channel/seriesdetail?sid=2359281)
 
 ## 介绍(Introduce)
 
 2021-07-24 更新：官方中文语言包正式推出！我个人不建议使用中文语言包，因为这对你查看官网帮助文档的时候会造成混乱。但是初学者确实使用中文语言包更容易上手，建议后期还原英文。
 - Gtihub Clone 比较慢的童鞋可以选择 Gitee 地址：`git clone --depth=1 https://gitee.com/cdk8s_org/IntelliJ-IDEA-Tutorial.git`
 - 本套教程适用于：
-	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/idea/)
-	- [WebStorm 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/webstorm)
-	- [PhpStorm 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/phpstorm)
-	- [PyCharm 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/pycharm)
-	- [RubyMine 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/ruby)
-	- [Goland 2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/go)
-	- [CLion 2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/clion)
-	- [DataGrip 2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/datagrip)
+	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/idea/)
+	- [WebStorm 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/webstorm)
+	- [PhpStorm 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/phpstorm)
+	- [PyCharm 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/pycharm)
+	- [RubyMine 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/ruby)
+	- [Goland 2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/go)
+	- [CLion 2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/clion)
+	- [DataGrip 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/datagrip)
 	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
@@ -70,12 +71,6 @@
 	- [插件相关功能设置、插件推荐](plugins-settings.md)
 	- [Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
 	- [插件开发视频教程](plugins-develop.md)
-- **基于 IntelliJ IDEA 下的 demo 尝试**
-	- [Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（新人重点）](maven-java-web-project-introduce.md)
-	- [Maven 的单模块 Spring MVC + Spring + Spring Data JPA 项目](maven-java-web-project-introduce2.md)
-	- [Maven 的单模块 Spring Boot 项目](https://github.com/judasn/SpringBoot-Simple-Demo-From-YouMeek)
-	- [Hello World 的 Java 项目创建和项目配置文件](project-settings.md)
-	- [基于 Eclipse 的 Java Web 项目在 IntelliJ IDEA 下的环境搭建](eclipse-java-web-project-introduce.md)
 - **其他（新用户必看）**
 	- [常见各类文件类型图标](file-symbols-introduce.md)
 	- [本教程总结](this-tutorial-the-end.md)
@@ -84,13 +79,10 @@
 
 - Email：`gitnavi@qq.com`
 - 微信：`upupmoment`
-- IntelliJ IDEA QQ 交流群，具体请看：[入群条件说明](https://github.com/judasn/IntelliJ-IDEA-Java-Conversation)
-- 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
+## GitHub 协同视频教程(Participate)
 
-## Github 协同视频教程(Participate)
-
-- 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面视频教程：
+- 如果您不会使用 Git 或是 GitHub 也没关系，请认真学习下面视频教程：
 - YouMeek 录制
     - 视频格式：MP4
     - 分辨率：1920 X 1080
@@ -100,16 +92,14 @@
     - 百度云盘：<http://pan.baidu.com/s/1bogmTLd>
 
 
-## Github 常用按钮说明
+## GitHub 常用按钮说明
 
-- Watch：关注该项目，作者有更新的时候，会在你的 Github 主页有通知消息。
+- Watch：关注该项目，作者有更新的时候，会在你的 GitHub 主页有通知消息。
 - Star：收藏该项目，在你的头像上有一个 “Your stars” 链接，可以看到你的收藏列表，以方便下次进来。
-- Fork：复制一份项目到自己的 Github 空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
+- Fork：复制一份项目到自己的 GitHub 空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
 - 只 clone 最新的一个版本记录，历史旧数据不 clone 的两种方法（推荐这样做，因为图片很多，占了很大空间）：
 	- 命令行方法：`git clone https://github.com/judasn/IntelliJ-IDEA-Tutorial.git --depth=1`
-	- TortoiseGit GUI 方法：
 
-![clone 一个版本](images/clone-depth-1.jpg)
 
 
 ## 参与作者汇总(Author)
@@ -120,7 +110,7 @@
 
 |作者(按参与时间排序)|地址|
 |:---------|:---------|
-|YouMeek|<http://YouMeek.com>|
+|Meek|<http://upupmo.com>|
 |温泉|<https://github.com/wenquan0hf>|
 |zhenhappy|<https://github.com/zhenhappy>|
 |two8g|<https://github.com/two8g>|
