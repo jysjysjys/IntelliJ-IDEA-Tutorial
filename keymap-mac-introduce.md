@@ -49,6 +49,7 @@
 - `Control + O` 覆盖方法（重写父类方法）
 - `Control + I` 实现方法（实现接口中的方法）
 - `Command + Option + T` 包围代码（使用if..else, try..catch, for, synchronized等包围选中的代码）
+- `Command + Option + Shift + 方向键左` 多行编辑、多光标同时编辑
 - `Command + /` 注释/取消注释与行注释
 - `Command + Option + /` 注释/取消注释与块注释
 - `Option + 方向键上` 连续选中代码块
@@ -142,8 +143,7 @@
 - `Command + ] / Command + [` 移动光标到当前所在代码的花括号开始/结束位置
 - `Command + F12` 弹出当前文件结构层，可以在弹出的层上直接输入进行筛选（可用于搜索类中的方法）
 - `Control + H` 显示当前类的层次结构
-- `Command + Shift + H` 显示方法层次结构
-- `Control + Option + H` 显示调用层次结构
+- `Option + Shift + H` 显示调用层次结构
 - `F2 / Shift + F2` 跳转到下一个/上一个突出错误或警告的位置
 - `F4 / Command + 方向键下` 编辑/查看代码源
 - `Option + Home` 显示到当前文件的导航条
